@@ -528,10 +528,10 @@ customConfig.setMemory("16GB");
 
 ## 8. 参考文档
 
-- [单例模式详细文档](../singleton/README.md)
-- [工厂模式详细文档](../factory/README.md)
-- [建造者模式详细文档](../builder/README.md)
-- [原型模式详细文档](../prototype/README.md)
+- [单例模式详细文档](./singleton/README.md)
+- [工厂模式详细文档](./factory/README.md)
+- [建造者模式详细文档](./builder/README.md)
+- [原型模式详细文档](./prototype/README.md)
 
 ---
 
