@@ -1,7 +1,7 @@
 package com.example.factory.abstractfactory;
 
 /**
- * Sugar.
+ * 糖.
  */
 public interface Sugar {
     String type();

@@ -1,11 +1,11 @@
 package com.example.factory.abstractfactory;
 
 /**
- * Americano.
+ * 美式.
  */
 public class Americano implements Coffee {
     @Override
     public String name() {
-        return "Americano";
+        return "美式";
     }
 }

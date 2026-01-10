@@ -6,8 +6,8 @@ package com.example.factory.abstractfactory;
 public class AbstractFactoryDemo {
 
     public static void main(String[] args) {
-        CafeFactory starbucks = new StarbucksFactory();
-        CafeFactory luckin = new LuckinFactory();
+        CafeFactory starbucks = new StarbucksFactory(); // 星巴克
+        CafeFactory luckin = new LuckinFactory(); // 瑞幸
 
         printSet("Starbucks", starbucks);
         printSet("Luckin", luckin);

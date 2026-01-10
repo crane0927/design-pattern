@@ -1,11 +1,11 @@
 package com.example.factory.abstractfactory;
 
 /**
- * BrownSugar.
+ * 红糖.
  */
 public class BrownSugar implements Sugar {
     @Override
     public String type() {
-        return "Brown";
+        return "红糖";
     }
 }

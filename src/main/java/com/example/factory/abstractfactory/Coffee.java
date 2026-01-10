@@ -1,7 +1,7 @@
 package com.example.factory.abstractfactory;
 
 /**
- * Coffee.
+ * 咖啡.
  */
 public interface Coffee {
     String name();

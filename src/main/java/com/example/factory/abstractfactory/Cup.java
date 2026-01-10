@@ -1,7 +1,7 @@
 package com.example.factory.abstractfactory;
 
 /**
- * Cup.
+ * 杯子.
  */
 public interface Cup {
     String material();

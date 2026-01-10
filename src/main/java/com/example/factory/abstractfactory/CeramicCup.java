@@ -1,11 +1,11 @@
 package com.example.factory.abstractfactory;
 
 /**
- * CeramicCup.
+ * 瓷杯子.
  */
 public class CeramicCup implements Cup {
     @Override
     public String material() {
-        return "Ceramic";
+        return "瓷杯子";
     }
 }

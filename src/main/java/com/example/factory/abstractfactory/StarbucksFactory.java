@@ -1,7 +1,7 @@
 package com.example.factory.abstractfactory;
 
 /**
- * StarbucksFactory.
+ * 星巴克 Factory.
  */
 public class StarbucksFactory implements CafeFactory {
     @Override

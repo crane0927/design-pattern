@@ -1,7 +1,7 @@
 package com.example.factory.abstractfactory;
 
 /**
- * LuckinFactory.
+ * 瑞幸 Factory.
  */
 public class LuckinFactory implements CafeFactory {
     @Override
