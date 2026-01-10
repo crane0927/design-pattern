@@ -283,7 +283,7 @@ private void writeObject(ObjectOutputStream oos) throws NotSerializableException
 
 ---
 
-## 7. UML 类图（覆盖你实现的关键版本）
+## 7. UML 类图
 
 说明：为了“能在 GitHub/Markdown 中渲染”，这里用 Mermaid classDiagram。
 如果你用 PlantUML，我也给了 PlantUML 版本（见 7.2）。
