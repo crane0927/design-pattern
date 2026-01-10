@@ -17,22 +17,22 @@ package com.example.singleton;
  * 静态代码块：
  * 1. 可以写 复杂初始化逻辑
  */
-public class Singleton02 {
+public class EagerStaticBlockSingleton {
     // 1. 私有化构造方法
-    private Singleton02() {
+    private EagerStaticBlockSingleton() {
     }
 
     // 2. 声明类型变量
-    private static Singleton02 singleton;
+    private static EagerStaticBlockSingleton singleton;
 
     // 3. 在本类中创建静态代码块
     static {
         // 可以写 复杂初始化逻辑
-        singleton = new Singleton02();
+        singleton = new EagerStaticBlockSingleton();
     }
 
     // 4. 提供一个公共的静态方法，返回静态对象
-    public static Singleton02 getInstance() {
+    public static EagerStaticBlockSingleton getInstance() {
         return singleton;
     }
 
