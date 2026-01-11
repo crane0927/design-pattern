@@ -334,10 +334,10 @@ public class LuckinFactory implements CafeFactory {
 factory/
 ├── direct/          # 不使用工厂（直接 new）
 ├── simple/          # 简单工厂
-├── staticfactory/   # 静态工厂
+├── static_factory/   # 静态工厂
 ├── method/          # 工厂方法
-├── abstractfactory/ # 抽象工厂
-└── configfactory/   # 配置工厂（扩展）
+├── abstract_factory/ # 抽象工厂
+└── config_factory/   # 配置工厂（扩展）
 ```
 
 每个子目录都包含：
