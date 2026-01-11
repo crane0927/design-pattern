@@ -1,4 +1,4 @@
-package com.example.structural.proxy.staticproxy;
+package com.example.structural.proxy.static_proxy;
 
 public interface SellTickets {
 

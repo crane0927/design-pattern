@@ -1,4 +1,4 @@
-package com.example.structural.proxy.cglib;
+package com.example.structural.proxy.cglib_proxy;
 
 /**
  * CGLIB 动态代理客户端
@@ -11,11 +11,11 @@ package com.example.structural.proxy.cglib;
  * - Eclipse: Run -> Run Configurations -> Arguments -> VM arguments: --add-opens java.base/java.lang=ALL-UNNAMED
  * 
  * 命令行运行（使用 Maven + 环境变量）：
- * MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED" mvn exec:java -Dexec.mainClass="com.example.structural.proxy.cglib.Client"
+ * MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED" mvn exec:java -Dexec.mainClass="com.example.structural.proxy.cglib_proxy.Client"
  * 
  * 或者手动运行（需要指定完整的类路径）：
  * CLASSPATH="target/classes:$(mvn dependency:build-classpath -q -DincludeScope=compile -Dmdep.outputFile=/dev/stdout)"
- * java --add-opens java.base/java.lang=ALL-UNNAMED -cp "$CLASSPATH" com.example.structural.proxy.cglib.Client
+ * java --add-opens java.base/java.lang=ALL-UNNAMED -cp "$CLASSPATH" com.example.structural.proxy.cglib_proxy.Client
  */
 public class Client {
 

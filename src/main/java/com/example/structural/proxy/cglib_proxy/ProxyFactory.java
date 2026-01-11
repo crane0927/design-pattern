@@ -1,4 +1,4 @@
-package com.example.structural.proxy.cglib;
+package com.example.structural.proxy.cglib_proxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

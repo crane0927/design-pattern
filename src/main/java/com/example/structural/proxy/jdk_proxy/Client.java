@@ -1,4 +1,4 @@
-package com.example.structural.proxy.jdk;
+package com.example.structural.proxy.jdk_proxy;
 
 public class Client {
 

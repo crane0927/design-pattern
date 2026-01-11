@@ -1,4 +1,4 @@
-package com.example.structural.proxy.staticproxy;
+package com.example.structural.proxy.jdk_proxy;
 
 /**
  * 火车站

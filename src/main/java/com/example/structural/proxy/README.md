@@ -303,7 +303,7 @@ CGLIB 需要访问 Java 内部 API，在 Java 9+ 中需要添加 JVM 参数：
 **命令行运行：**
 
 ```bash
-MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED" mvn exec:java -Dexec.mainClass="com.example.structural.proxy.cglib.Client"
+MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED" mvn exec:java -Dexec.mainClass="com.example.structural.proxy.cglib_proxy.Client"
 ```
 
 ### 5.5 CGLIB 动态代理的特点
@@ -333,17 +333,17 @@ MAVEN_OPTS="--add-opens java.base/java.lang=ALL-UNNAMED" mvn exec:java -Dexec.ma
 
 ```
 proxy/
-├── staticproxy/    # 静态代理
+├── static_proxy/    # 静态代理
 │   ├── SellTickets.java    # 接口
 │   ├── Station.java        # 真实对象
 │   ├── ProxyPoint.java     # 代理类
 │   └── Client.java         # 客户端
-├── jdk/            # JDK 动态代理
+├── jdk_proxy/            # JDK 动态代理
 │   ├── SellTickets.java    # 接口
 │   ├── Station.java        # 真实对象（实现接口）
 │   ├── ProxyFactory.java   # 代理工厂
 │   └── Client.java         # 客户端
-└── cglib/          # CGLIB 动态代理
+└── cglib_proxy/          # CGLIB 动态代理
     ├── Station.java        # 真实对象（无需接口）
     ├── ProxyFactory.java   # 代理工厂
     └── Client.java         # 客户端
