@@ -6,21 +6,29 @@ package com.example.structural.flyweight;
  */
 public abstract class AbstractBox {
 
-    protected String color;
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-
-
+    /**
+     * 获取形状（内部状态，可共享）
+     * @return 形状
+     */
     public abstract String getShape();
 
-    @Override
-    public String toString() {
+    /**
+     * 显示方块信息（颜色作为外部状态传入）
+     * @param color 颜色（外部状态，不可共享）
+     * @return 方块信息字符串
+     */
+    public String display(String color) {
         return "AbstractBox{" +
                 "color='" + color + '\'' +
                 ", shape='" + getShape() + '\'' +
                 '}';
+    }
+
+    /**
+     * toString 方法（不包含外部状态）
+     */
+    @Override
+    public String toString() {
+        return "AbstractBox{shape='" + getShape() + "'}";
     }
 }
