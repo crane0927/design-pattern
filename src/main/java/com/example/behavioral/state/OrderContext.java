@@ -19,7 +19,11 @@ public class OrderContext {
         this.currentState = nextState;
     }
 
-    public void handle() { // 处理订单
+    /**
+     * 处理订单
+     * 委托给当前状态处理
+     */
+    public void handle() {
         currentState.handle(this);
     }
 }
