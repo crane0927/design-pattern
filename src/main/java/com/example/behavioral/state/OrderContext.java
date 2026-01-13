@@ -11,8 +11,12 @@ public class OrderContext {
         this.currentState = currentState;
     }
 
-    public void setCurrentState(OrderState currentState) { // 设置当前状态
-        this.currentState = currentState;
+    /**
+     * 转换到下一个状态
+     * @param nextState 下一个状态
+     */
+    public void transitionTo(OrderState nextState) {
+        this.currentState = nextState;
     }
 
     public void handle() { // 处理订单
