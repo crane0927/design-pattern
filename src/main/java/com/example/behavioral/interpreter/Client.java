@@ -1,4 +1,4 @@
-    package com.example.behavioral.interpreter;
+package com.example.behavioral.interpreter;
 
 /**
  * 客户端
