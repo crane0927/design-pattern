@@ -1,4 +1,4 @@
-package com.example.mediator;
+package com.example.behavioral.mediator;
 
 /**
  * 用户类
